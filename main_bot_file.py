@@ -11,7 +11,7 @@ from keyboards import kb, kb2, ikb, del_saved_ikb
 
 
 logging.basicConfig(level=logging.INFO, filename="errors.log", filemode="a", encoding="utf-8")
-bot = Bot(token=os.getenv(key="BOT_TOKEN"), parse_mode=types.ParseMode.HTML)
+bot = Bot(token="6297024039:AAGL5sim2qRaQ_6Ds9oGzZgZMXAvKVeNoAU"), parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 USERS = {}  # словарь для хранения данных пользователей
 USER = os.getenv(key="USER")
